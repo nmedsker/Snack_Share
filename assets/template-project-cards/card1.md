@@ -1,12 +1,9 @@
 **1. Problem Model and Proposed Solution**
-- [x] Survey Stakeholders
-- [x] Analyze and Synthesize Survey Results
-- [x] Develop Personas
-- [x] Ideate
-- [x] Compose Value Proposition
-- [x] Present Proposal
+- [x] Survey Stakeholders in Google Forms
+- [x] Compare and contrast results
+- [x] Create persona and lean persona
 
 *Options: Choose 1*
-- [ ] Quantitative Survey Analysis with Charts
-- [ ] Technology Mapping
-- [ ] Concept Sketches
+- [ ] Concept sketches
+      - Do basic wireframes using mockflow.com
+      -Show basic webpages users would see when traversing the site
