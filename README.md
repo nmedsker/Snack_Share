@@ -6,7 +6,11 @@ is a new informative sharing website that
 provides recipes for meals or snacks from others
 in a similar situation.
 
-[As needed, provide more about what the applicaiton does, the primary stakeholders and the value it brings each.]
+## Stakeholders
+* College students with varied culinary experience
+* College students looking to connect with others through food
+* Those looking to save money when making good food or snacks
+* Those who wish to share their knowledge of cooking and/or saving money
 
 ## Links
 
