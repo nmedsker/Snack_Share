@@ -5,5 +5,5 @@
 
 *Options: Choose 1*
 - [ ] Concept sketches
-      - Do basic wireframes using mockflow.com
-      -Show basic webpages users would see when traversing the site
+- [x] Do basic wireframes using mockflow.com
+- [ ] Show basic webpages users would see when traversing the site
