@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-image: url("https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg");
+
+}
+
+.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #383737;
+  width: 100%;
+  border: 5px solid rgb(158, 230, 158);
+  background: rgb(236,193,130);
+  background: linear-gradient(174deg, rgba(236,193,130,1) 13%, rgba(238,213,176,1) 77%, rgba(245,231,209,1) 100%);
+  text-align: center;
+}
+
+.navbar {
+  border-top: 5px solid rgb(158, 230, 158);
+  background: rgb(236,193,130);
+  overflow: hidden; 
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: rgba(238,213,176,1);
+  color: #383737;
+}
+
+.navbar a.active {
+  background-color:  rgb(158, 230, 158);
+  color: #383737;
+}
+
+.main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: auto;
+  max-width: 900px;
+}
+
+
+
+.post {
+  padding: 8px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
+.post1 {
+  background-color: rgba(255, 255, 255, 0.295);
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  perspective: 1000px; 
+}
+
+
+.post1-inner {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.post1:hover .post1-inner {
+  transform: rotateY(180deg);
+}
+
+
+.post1-front, .post1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.post1-back {
+
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.footer {
+  text-align: center;
+  overflow: hidden;
+  background: rgb(236,193,130);
+  background: linear-gradient(11deg, rgba(236,193,130,1) 13%, rgba(238,213,176,1) 77%, rgba(245,231,209,1) 100%);
+  border: 5px solid rgb(158, 230, 158);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
