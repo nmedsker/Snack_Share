@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-image: url("https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg");
+
+}
+
+.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #383737;
+  width: 100%;
+  border: 5px solid rgb(158, 230, 158);
+  background: rgb(236,193,130);
+  background: linear-gradient(174deg, rgba(236,193,130,1) 13%, rgba(238,213,176,1) 77%, rgba(245,231,209,1) 100%);
+  text-align: center;
+}
+
+.navbar {
+  border-top: 5px solid rgb(158, 230, 158);
+  background: rgb(236,193,130);
+  overflow: hidden; 
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: rgba(238,213,176,1);
+  color: #383737;
+}
+
+.navbar a.active {
+  background-color:  rgb(158, 230, 158);
+  color: #383737;
+}
+
+.main {
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.picture {
+  float: left;
+  width: 55%;
+}
+
+.info {
+  float: left;
+  width: 30%;
+}
+
+.footer {
+  text-align: center;
+  overflow: hidden;
+  background: rgb(236,193,130);
+  background: linear-gradient(11deg, rgba(236,193,130,1) 13%, rgba(238,213,176,1) 77%, rgba(245,231,209,1) 100%);
+  border: 5px solid rgb(158, 230, 158);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
