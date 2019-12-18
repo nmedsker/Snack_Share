@@ -14,6 +14,6 @@ in a similar situation.
 
 ## Links
 
-[Live App](https://repl.it)
+[Live App](https://repl.it/@nmedsker/HomePage)
 
 [Project Board](../../projects/1)
